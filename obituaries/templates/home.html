@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Obituary Management Platform</h1>
+    </header>
+
+    <main>
+        <p>We offer a comprehensive obituary management system to help you honor and remember loved ones.</p>
+        <p>Navigate through the following options:</p>
+        <ul>
+            <li><a href="{% url 'view_obituaries' %}">View Obituaries</a></li>
+            <li><a href="{% url 'submit_obituary' %}">Submit an Obituary</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Obituary Management Platform</p>
+    </footer>
+</body>
+</html>

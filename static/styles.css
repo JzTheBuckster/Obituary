@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; /* White text for contrast */
+    background-color: #000000; /* Black background */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFD700; /* Batman's yellow accent */
+    font-family: 'Impact', sans-serif; /* Bold font for headings */
+}
+
+a {
+    color: #FFD700; /* Yellow links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    background-color: #333333; /* Dark grey background for forms */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    color: #FFD700; /* Yellow labels */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #FFD700; /* Yellow border for inputs */
+    border-radius: 4px;
+    background-color: #222222; /* Dark grey background for inputs */
+    color: #FFFFFF; /* White text inside inputs */
+}
+
+button {
+    background-color: #FFD700; /* Yellow button background */
+    color: #000000; /* Black text on button */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #FFC107; /* Slightly lighter yellow on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #FFD700; /* Yellow border for table cells */
+    text-align: left;
+}
+
+thead {
+    background-color: #222222; /* Dark grey background for table headers */
+}
+
+thead th {
+    color: #FFD700; /* Yellow text for table headers */
+}
+
+/* Sharing Links */
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div a {
+    color: #FFD700; /* Yellow links */
+    font-size: 1.2em;
+    margin: 0 10px;
+}
